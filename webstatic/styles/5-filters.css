@@ -5,6 +5,7 @@
     border-radius: 4px;
     margin: 0 50px;
     position: relative;
+    display: flex;
 }
 button{
     font-size: 18px;
@@ -24,21 +25,29 @@ button:hover{
     opacity: 0.9;
 }
 
+.amenities{ 
+    height: 100%;
+    width:25%;
+    margin-left: 50px;
+    float: left;
+
+}
+
 .locations{
-    position: absolute;
     border-right: 1px solid #DDDDDD;
     height: 100%;
     width:25%;
-    text-align: center;   
+    margin-left: 50px;
+    float: left;
 }
 
 h3{
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 h4{
     font-weight: 400;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 0px;
 }
